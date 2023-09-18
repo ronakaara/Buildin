@@ -1,0 +1,195 @@
+*{
+ font-family: sans-serif;
+}
+body{
+	background: #f1fbff;
+}
+.section-padding{
+	padding: 100px 0;
+}
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption{
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.9;
+
+}
+.carousel-inner::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 1;
+
+}
+.navbar-nav a{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+
+}
+.navbar-light .navber-brand{
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.navber-light .navber-brand:focus,
+.navber-light .navber-brand:hover{
+	color: #000;
+
+}
+.navbar-light .navbar-nav .navbar-link{
+	color: #000;	
+}
+.w-100{
+	height: 100vh;
+}
+
+.services .card-body i{
+	font-size: 40px;
+}
+.team .card-body i{
+	font-size: 20px;
+}
+.portfolio .card{
+	box-shadow: 15px 15px 40px rgba(0,0,0,0.15)
+
+}
+.team .card{
+	box-shadow: 15px 15px 40px rgba(0,0,0,0.15)
+
+}
+
+
+/* === responsive css=== */
+/*
+**** galaxy fold mobile phone
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/* css start */
+
+
+
+/* css end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles 
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .navbar-nav{
+  	text-align: center;
+  }
+  .carousel-caption{
+  	bottom: 120px;
+  }
+  .carousel-caption h5{
+  	padding: 5px 10px;
+  	font-size: 20px;
+  }
+  .carousel-caption a{
+  	padding: 5px 10px;
+  }
+  .carousel-caption p{
+  	width: 100%;
+  	line-height: 1.4;
+  	font-size: 20px;
+  }
+.card{
+  	margin-bottom: 20px;
+
+  }
+  .img-area img{
+  	width: 100%
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+    .navbar-nav{
+  	text-align: center;
+  }
+  .carousel-caption{
+  	bottom: 125px;
+  }
+  .carousel-caption h5{
+  	padding: 10px 15px;
+  	font-size: 27px;
+  }
+  .carousel-caption a{
+  	padding: 10px 15px;
+  }
+   .carousel-caption p{
+  	width: 100%;
+  	line-height: 1.5;
+  	font-size: 25px;
+  }
+  
+  .card{
+  	margin-bottom: 25px;
+
+  }
+  .img-area img{
+  	width: 100%
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+    .navbar-nav{
+  	text-align: center;
+  }
+  .carousel-caption{
+  	bottom: 130px;
+  }
+  .carousel-caption h5{
+  	padding: 15px 20px;
+  	font-size: 40px;
+  }
+  .carousel-caption a{
+  	padding: 15px 20px;
+  }
+   .carousel-caption p{
+  	width: 100%;
+  	line-height: 1.8;
+  	font-size: 30px;
+  }
+  .card{
+  	margin-bottom: 30px;
+
+  }
+  .img-area img{
+  	width: 100%
+  }
+}
